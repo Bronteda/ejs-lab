@@ -1,12 +1,6 @@
 const express = require('express');
 const app = express();
 
-/*<li>
-    <%= item.name %> : <%= item.price %> Rating: <%= item.rating %> Details: <%=
-                                                    item.details %>
-</li>*/
-
-
 const RESTAURANT = {
     name: 'The Green Byte Bistro',
     isOpen: true,
